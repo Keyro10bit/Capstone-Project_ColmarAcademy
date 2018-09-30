@@ -179,6 +179,14 @@ header:hover{
 }
 
 
+/*--header Breakpoints--*/
+@media only screen and (max-width: 660px) {
+  header {
+    opacity: .75;
+  }
+}
+
+
 /*--Navigation--*/
 
 nav {
@@ -696,7 +704,7 @@ footer {
 }
 
 
-/*--Viewable Breakpoints--*/
+/*--Viewable Breakpoints
 
 body:after {
   left: 50%;
@@ -726,4 +734,4 @@ body:after {
     color: red;
     z-index: 2;
   }
-}
+}--*/
