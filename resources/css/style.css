@@ -184,6 +184,9 @@ header:hover{
   header {
     opacity: .75;
   }
+  header:active {
+    opacity: 1;
+  }
 }
 
 
@@ -236,6 +239,9 @@ a {
   }
   nav p {
     display: none;
+  }
+  nav img:active {
+    opacity: .75;
   }
   nav img:hover {
     opacity: .75;
@@ -344,6 +350,11 @@ font-size: 1.5rem;
   .button {
     width: 100%;
     margin: 1.5rem 0rem 2rem 0rem;
+  }
+  .button:active {
+    background-color: hsl(250, 75%, 50%);
+    color: white;
+    transition: .25s ease-in 100ms;
   }
 }
 
@@ -583,6 +594,10 @@ font-size: 1.5rem;
   .program {
     width: 80%;
     margin: 0.25rem 0;
+  }
+  .program:active {
+    border-top: solid 7px hsl(250, 75%, 50%);
+    transition: border-top 0.35s ease-out 200ms;
   }
   .program img, .program h4, .program p {
     display: none;
