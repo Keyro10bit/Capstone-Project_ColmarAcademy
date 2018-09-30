@@ -491,11 +491,11 @@ font-size: 1.5rem;
     width: 100%;
   }
   .story {
-    margin: 1rem 0 3rem 1rem;
+    margin: 1rem 1rem 3rem 1rem;
     padding: 0;
   }
   .story:last-child {
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem;
   }
 }
 
